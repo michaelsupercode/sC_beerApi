@@ -1,0 +1,101 @@
+.App {
+    width: 85%;
+    margin: 2% auto;
+}
+
+figure {
+    margin: 0;
+    line-height: 0;
+}
+
+h4 {
+    margin-left: 8%;
+}
+
+img {
+    width: 70%;
+}
+
+a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 2% 0 5%;
+    width: 70%;
+}
+
+.select-btn {
+    background: #ffca41;
+    padding: 3% 15%;
+    width: 40%;
+}
+
+.beerItems {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    gap: 10%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10%;
+    margin: 5% 15%;
+    height: 45vh;
+}
+
+.item-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.item-text {
+    font-weight: bold;
+    color: #ffca41;
+}
+
+.link {
+    background: #ffca41;
+    border-radius: 1em;
+    padding: 0.1em 1em;
+}
+
+.item {
+    width: 85%;
+    margin: auto;
+}
+
+.item-img {
+    display: block;
+    width: 25%;
+    margin: 5% auto;
+}
+
+.item-title {
+    font-size: 3rem;
+}
+
+.item-data-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-btn {
+    width: 7%;
+}
+
+.map-wrapper,
+.beer-item-wrapper {
+    position: relative;
+}
+
+.navbar {
+    width: 42%;
+    background: #ffca41;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    margin-top: 5%;
+    margin-left: 28%;
+}
